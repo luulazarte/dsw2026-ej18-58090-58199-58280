@@ -8,8 +8,10 @@
 <body>
 <form action="/procesar" method="post">
     <!-- Campos del formulario -->
-    <label for="Nombre de usuario">Nombre:</label>
-    <input type="text" name="Requerido" id="Nombre de usuario" placeholder="Nombre">
+    <label for="Usuario">Nombre de usuario:</label>
+    <input type="text" name="Usuario" id="Usuario" required>
+    <label for="Contrasenia">Contraseña:</label>
+    <input type="password" name="Contrasenia" id="Contrasenia" required>
     <button type="submit">Enviar</button>
 </form>
 </body>
